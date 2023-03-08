@@ -1,7 +1,7 @@
 //Abre o VS Code
 // Abra um novo arquivo ou um arquivo dentro de uma pasta
 // Para visualizar, clique com botão direito do mouse e selecione "Open With Live Server"
-// No novo arquivo, escreva htlm 5 e será gerado automaticamente
+// No novo arquivo, escreva <html> e depois htlm 5 e será gerado automaticamente
 
 <!DOCTYPE html>
 <html lang="en">
