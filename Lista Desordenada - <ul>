@@ -17,6 +17,7 @@
 //li - list item (usada antes de cada litem da lista
  
  // ul type = " ", podendo ser square, circle ou disc para mudar os marcadores da lista
+ // se não especificar type, ficará em números
  <ul type ="circle">
         <li> Técnico Integrado ao Ensino Médio
             <li> Graduação
