@@ -1,0 +1,27 @@
+//Abre o VS Code
+// Abra um novo arquivo ou um arquivo dentro de uma pasta
+// Para visualizar, clique com botão direito do mouse e selecione "Open With Live Server"
+// No novo arquivo, escreva <html> e depois htlm 5 e será gerado automaticamente
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ListaOrdenada</title>
+</head>
+<body>
+
+//ol - ordened list (uma lista de itens em uma ordem lógica numérica)
+    <ol >
+        <li> Técnico Integrado ao Ensino Médio
+            <li> Graduação
+                <li> Lincenciatura
+
+                </li>
+    </ol>
+</body>
+</html>
+
+//A lista aparecerá com marcador tipo números
+//IMPORTANTE: ao salvar renome o arquivo com .html
