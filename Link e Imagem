@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type = "text/css" href="ListaDEscritiva.css"/>
+    <title>ListaDescritiva</title>
+</head>
+<body>
+
+<ul>
+    <h1>Guia de Sobrevivência para Gateiros</h1>
+
+    <ol>
+        <li>Tenha o rolo "tira pêlos"</li>
+        <li>Procure urgentemente um veterinário para castração</li>
+        <li>Entenda que gatos precisam gastar energia</li>
+    </ol>
+
+    <h2>Pelagem de Gatos</h2>
+    <dl>​
+        <dt>Preto e branco
+        <dd> Rajado
+        </dl>
+        
+    
+</ul>
+
+//link e muda a cor do link
+<a href = "https://www.petz.com.br/blog/wp-content/uploads/2021/11/enxoval-para-gato-Copia.jpg" style = "color:red" target = "_blank"> Google  </a>
+
+//colocar imagem no site
+// a imagem deve estar na mesma pasta do html
+<img src ="enxoval-para-gato-Copia.jpg" class = "img">
+
+</body>
+</html>
+
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+CSS
+
+
+h1{
+    font-size: 40px;
+    color: pink;
+    background: grey;
+}
+
+ol    {
+        font-size: 20px;
+        color:red;
+        background-color: black;
+    }
+
+    h2{
+        font-size: 20px;
+        color: pink;
+        background-color:blue;
+    }
+
+    ul {
+        font-size: 20px;
+        color: white
+    }
+
+    body{
+        background-color: black;
+    }
+
+
+.img {
+    position: absolute;
+    margin-left: 15cm;
+    margin-top: -2cm;
+}
