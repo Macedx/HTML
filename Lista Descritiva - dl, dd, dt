@@ -1,0 +1,38 @@
+//Abre o VS Code
+// Abra um novo arquivo ou um arquivo dentro de uma pasta
+// Para visualizar, clique com botão direito do mouse e selecione "Open With Live Server"
+// No novo arquivo, escreva <html> e depois htlm 5 e será gerado automaticamente
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+// Quando houver uma segundo arquivo css separado, referencie dessa forma
+    <link rel="stylesheet" type = "text/css" href="ListaDEscritiva.css"/>
+    
+    <title>ListaDescritiva</title>
+</head>
+<body>
+
+//ul para ter o marcador tipo ponto
+<ul>
+
+//h1 porque eu achei mais estético
+    <h1> IFSP</h1>
+    
+ //dl - descriptive list
+ //dd - linha que você quer recuar
+ //dt - identifica um termo na lista de definição
+    <dl>Instituto Federal de São Paulo</dl>
+    <dt><li>Informática</li></dt>
+    <dd><li>Técnico Integrado ao Ensino Médio</li></dd>
+</ul>
+
+</body>
+</html>
+
+// //IMPORTANTE: ao salvar renome o arquivo com .html
