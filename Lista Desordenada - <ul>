@@ -15,7 +15,9 @@
     
 //ul - unordened list
 //li - list item (usada antes de cada litem da lista
-    <ul type ="circle">
+ 
+ // ul type = " ", podendo ser square, circle ou disc para mudar os marcadores da lista
+ <ul type ="circle">
         <li> Técnico Integrado ao Ensino Médio
             <li> Graduação
                 <li> Lincenciatura
