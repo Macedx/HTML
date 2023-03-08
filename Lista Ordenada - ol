@@ -13,6 +13,17 @@
 <body>
 
 //ol - ordened list (uma lista de itens em uma ordem lógica numérica)
+
+//Tipos de marcadores: 
+//ol type="A" ordena a lista com maiúsculas
+//ol type="a" ordena a lista com minúsculas
+//ol type="I" ordena a lista com algarismos romanos maiúsculos
+//ol type="i" ordena a lista com algarismos romanos minúsculos
+
+//se quiser iniciar a lista com um valor específico:
+//<ol start = (número)>
+//exemplo:<ol start = 5>
+//o marcador comecará com 5
     <ol >
         <li> Técnico Integrado ao Ensino Médio
             <li> Graduação
