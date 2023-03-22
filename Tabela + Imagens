@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type = "text/css" href="tabela.css"/>
+    <title>Tabela HTML</title>
+</head>
+<body>
+
+
+            <table class = "t" border = 2> 
+                <caption> Despesas Por Mês </caption> 
+                <tr>
+                    <th colspan = "4"> Despesas</th>
+                </tr>
+                <tr>
+                    <td>Mês</td>
+                    <td>Luz</td>
+                    <td> Água</td>
+                    <td>Academia</td>
+                
+                </tr>
+                <tr>
+                    <td>Março</td>
+                    <td>R$320,00</td>
+                    <td>R$130,87</td>
+                    <td>R$140,00</td>
+                    
+                </tr>
+                <tr>
+                    <td>Abril</td>
+                    <td>R$312,40</td>
+                    <td>R$124,23</td>
+                    <td>R$140,00</td>
+                </tr>
+
+                <tr>
+                <th colspan = "4"> Ilustração</th>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td>Luz</td>
+                <td>Água</td>
+                <td> Academia</td>
+            </tr>
+            <tr>&nbsp;</tr>
+            
+            <tr>
+                <td></td>
+                <td> <img class = "d2" src = "luz.jpeg"></td>
+                <td> <a href = "https://www.enel.com.br/pt-saopaulo.html" target="_blank"><img class = "d1" src = "índice.jpeg" height="300"title = "Enel"></a></td>
+                <td><a href = "https://academiagavioes.com.br/unidades/Shopping-Trimais" target="_blank"><img class ="d3" src="academia.jpg" height = "300"title = "Academia Gaviões Trimais"></a></td>
+            </tr>
+
+                </tr>
+            </table>
+
+</body>
+</html>
