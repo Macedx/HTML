@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=, initial-scale=1.0">
+<link rel="stylesheet" type=""text/css" href="AULA15.05.css" />
+<title>Confeitaria Dedos De Mel</title>
+</head>
+<body>
+
+<h1> Dedos de Mel</h1>
+
+<div class="mel">
+<hr>
+<p > <font size = 5> <i>Dedos de Mel </i> é uma <b>lendária </b>loja de doces bruxos famosa por seu chocolates e muitos, maravilhosos e selvagens doces.</p> </font> </font> </div>
+<hr>
+
+</div>
+
+<div class="h2">
+<p> <b> Doces Vendidos </b></p>
+
+<ol>
+<li><a href "https://harrypotter.fandom.com/pt-br/wiki/Abacaxi_cristalizado">Abacaxi Cristalizado</a> </li>
+<li> <a href "https://harrypotter.fandom.com/pt-br/wiki/Feij%C3%B5ezinhos_de_Todos_os_Sabores"> Feijõeszinhos de Todos os Sabores</a> </li>
+<li><a href "https://harrypotter.fandom.com/pt-br/wiki/Lesmas_de_gel%C3%A9ia">Lesmas de Geléia</a> </li>
+
+</ol>
+</div>
+
+<div class="h3">
+<ul>
+<li> Abacaxi cristalizado foi vendido como pequenos pedaços de abacaxi cozidos em calda de açúcar e incrustados com cristais de açúcar. </li>
+<li> Feijõezinhos de Todos os Sabores Bertie Bott são um dos doces mais populares do mundo bruxo.</li>
+<li> Lesmas de Geléia são balas de goma que se parecem com lesmas.</li>
+</ul>
+</div>
+
+<div class="h4">
+<dl>
+<dt> Dentro da loja havia:</dt>
+<dd>Adega cheia de caixas de madeira</dd>
+<dd>Piso empoeirado</dd>
+<dd>Grande escada de madeira</dd>
+<dd>Carrinho de doces</dd>
+</dl>
+</div>
+
+<div>
+<center> <img class="d1" src="dedosdemel.jpeg" border="4"></center>
+<br>
+
+<center><img class="d2" src="d2.jpg" title="Ilustração do interior da loja de doces Dedos de Mel."></center>
+<br>
+<center><a href = "https://www.pinterest.com/liviacarliane/dedos-de-mel/" target="_blank"><img class ="d3" src="d3.jpg" title = "Dedos de Mel"></a></center>
+
+</div>
+
+<div class ="h5">
+<body background = "bg.jpg"</div>
+
+<p> Deixe seu comentário sobre o nosso conteúdo bruxo de hoje!</p> <!---->
+</div>
+
+</body>
+</html>
+
+CSS
+
+
+body{
+background-color: rgb(0, 0, 0);
+}
+
+.mel{
+font-family: Times New Roman;
+color: white
+}
+
+.d1{
+height: 8cm;
+border-style: solid;
+border-color: bisque;
+border-radius: 10px;
+}
+
+.d2{
+height: 12cm;
+}
+
+.d3{
+height: 13cm;
+}
+
+h1{
+color: white;
+}
+
+.h2{
+color: white
+}
+
+.h3{
+color:white
+}
+
+.h4{
+color: white
+}
+.h5{
+color:white
+}
