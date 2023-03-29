@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <html>
+        <head><title>Formulário - Exemplo1</title>
+        <body>
+        
+        <form>
+            <input type="text" name="nome" placeholder="Digite o nome">
+            <input type="e-mail" name="email" placeholder="Digite o email" >
+            <input type="submit" name="enviar" placeholder="Enviar" >   <br>
+            
+            <div class="Check">
+
+            <input type="checkbox"  name="veiculo1" value="Bicicleta">Eu tenho uma bicicleta<br>
+            <input type="checkbox" name="veiculo2value="Carro">Eu tenho um carro<br>
+            <input type="checkbox" name="veiculo3" value="Moto">Eu tenho uma moto<br>
+
+            </div>
+
+            <div class="Cor">
+                
+                Selecione sua cor favorita:
+                <input type="color" name="favcolor" value="black">
+                <input type="color" name="favcolor" value="red">
+                <input type="color" name="favcolor" value="blue">
+
+            </div>
+
+            <div class="HBDay">
+                
+                <br>
+                Data de Nascimento
+                <input type="date" name="data" value="Nascimento"> <br>
+                <br>
+                Horário do nascimento
+                <input type="datetime-local" name="bdayitme">
+            </div>
+
+        </form>
+
+            <div class="File">
+                <form>
+                    <br>
+                    RG:
+                    <input type="file" name="Arquivos" multiple>
+                </form>
+            </div>
+
+            <div class="Nome">
+                <form>
+                    <br>
+                    Primeiro nome: 
+                    <input type="text" name="Pnome">
+                    <br>
+                    <br>
+                    Último nome: 
+                    <input type="text" name="Unome">
+                    <br>
+                    <br>
+
+            <div class="Imagem">
+                    <input type="image" src="protesto.JPG" alt="Submit" width="100" height=50">
+                    <br>
+                    <br>
+
+            </div>
+
+            <div class="mesano">
+                    Mês e ano: 
+                    <input type="month" name="mesano">
+                    <br>
+                    <br>
+            </div>
+
+            <div class="Qtd">
+                    Quantidade de filhos:
+                    <input type="number" name="qtd" min="0" max="100" step="1">
+            </div>
+
+            <div class="Radio">
+
+                <p>Qual sua idade?</p>
+                  <input type="radio" name="idade" value="18_22">18 a 22 <br>
+                 <input type="radio" name="idade" value="23_30">23 a 30 <br>
+                 <input type="radio" name="idade" value="mais31">acima de 31<br>
+            </div>
+
+                </form>
+        </body>
+        </html>
