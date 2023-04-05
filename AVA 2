@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type = "text/css" href="Css.css"/>
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+
+    <h1>
+        ANA PAULA MACEDO
+    </h1>
+    <p>
+        Desenvolvedora de Sistemas
+    </p>
+    <br>
+    <p class="contato">
+        anapaula.macedobatista09@gmail.com
+        <br>
+        www.portfolioanapaula.com.br
+        <br>
+        Rua Ushikichi Kamiya, 1401
+    </p>
+    <hr class="line">
+
+    <h1 class="pt">
+        <br><br><br>
+        PORTFOLIO
+    </h1>
+<header>
+    <ul>
+        <li>
+           <a href="#sm"> Sobre mim</a>
+        </li>
+        <li>
+            <a href="#cp">Competências</a>
+        </li>
+        <li>
+            <a href="#ctt">Contato</a>
+        </li>
+    </ul>
+</header>
+
+<hr>
+
+<h1 id="sm">
+    Sobre Mim
+</h1>
+<p class="sm1">
+    Sou uma estudante acídua, sempre buscando novos conhecimentos. Atualmente estou me instruindo no Instituto Federeal de São Paulo com ensino médio integrado o curso
+    de Informática (3/4 anos), na ETEC Parque da Juventude no curso técnico em Marketing (2/3 semestres) e concluí uma trajetória de 3 anos na ENJOY,
+    me especializando em mais de 10 cursos profissionalizantes, além de aprimorar um segundo idioma.
+    <br>
+    Procuro oportunidade de estágio na área de tecnologia para aprimorar minhas competências no setor.
+</p>
+
+<h1 id="cp">
+    Competências
+</h1>
+<p>
+<ul class="cp1">
+    <li>C (linguagem de programação)</li>
+    <li>Sistemas computacionais</li>
+    <li>Rede de computadores</li>
+    <li>Banco de dados</li>
+    <li>Pacote Office</li>
+    <li>C# (linguagem de programação)</li>
+    <li>HTML5 (linguagem de programação)</li>
+    <li>Java (linguagem de programação)</li>
+    <li>Inglês</li>
+    <li>Gestão administrativa</li>
+    <li>Administração financeira
+    </li><li>Mídias sociais</li>
+    <li>Estratégias de marketing</li>
+    <li>Promoção de vendas</li>
+    <li>Merchandising</li>
+    <li>Modelo de negócios</li>
+    <li>Microsoft Azure AI Fundamentals (intelingência artifical)</li>
+</ul>
+</p>
+
+<h1 id="ctt">
+    Contato
+</h1>
+<ul class="ctt">
+    <li><center><a href = "https://www.linkedin.com/in/ana-paula-macedo-98a2a024b" target="_blank"><img class ="d3" src="d3.png" title = "Linkedin"></a></center></li>
+    <li><center><a href = "https://instagram.com/anamcdx?igshid=YmMyMTA2M2Y=" target="_blank"><img class ="d4" src="d4.jpeg" title = "Instagram"></a></center></li>
+    </ul>
+  </nav> 
+</body>
+</html>
+____________________________________________________
+css
+
+html { 
+    background: url(bgg.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+h1{
+    text-align: right;
+    margin-right: 3cm;
+    font-size: 40px ;
+}
+
+p{
+    text-align: right;
+    margin-right: 3cm;
+    font-size: 30px;
+}
+.contato{
+    font-size: 20px;
+    line-height: 1cm;
+}
+
+.line{
+    margin-left: 30cm;
+}
+.pt{
+    text-align: center;
+    font-size:50px;
+    margin-left: 5cm;
+    margin-top:8cm;
+}
+.abas{
+    line-height: 5cm;
+    display:flex;
+    justify-content: space-between;
+  list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    font-size: 25px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+#sm{
+    text-align: center;
+    font-size:40px;
+    margin-left: 5cm;
+    margin-top:8cm;
+}
+.sm1{
+    text-align: justify;
+    margin-left: 5cm;
+    margin-right: 5cm ;
+    margin-top: 5cm;
+    font-size: 20px;
+}
+
+#cp{
+    text-align: center;
+    font-size:40px;
+    margin-left: 5cm;
+    margin-top:8cm;
+}
+.cp1{
+
+    text-align: justify;
+    margin-left: 5cm;
+    margin-right: 5cm ;
+    margin-top: 5cm;
+    font-size: 20px;
+}
+.line{
+    background-color: black;
+}
+
+#ctt{
+    text-align: center;
+    font-size:40px;
+    margin-left: 5cm;
+    margin-top:8cm;
+}
+.ctt{
+    list-style-type: none;
+    line-height: 5cm;
+    display:flex;
+    justify-content: space-between;
+  list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    font-size: 25px;
+}
+.d3{
+    height: 2cm;
+}
+
+.d4{
+    height: 2cm;
+}
