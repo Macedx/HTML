@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Exemplo3.css">
+    <title>Exemplo 3</title>
+</head>
+<body>
+    <p>Quando eu morrer quero ficar <br>
+        Quando eu morrer quero ficar,<br>
+        Não contem aos meus inimigos,<br>
+        Sepultado em minha cidade,<br>
+        Saudade. </p>
+        <br>
+
+    <p>Meus pés enterrem na rua Aurora,<br>
+            No Paissandu deixem meu sexo,<br>
+            Na Lopes Chaves a cabeça<br>
+            Esqueçam. </p>
+
+            <br>
+
+    <p>No Pátio do Colégio afundem <br>
+        O meu coração paulistano: <br>
+        Um coração vivo e um defunto <br>
+        Bem juntos. </p>
+        <br>
+
+        <p>Escondam no Correio o ouvido <br>
+        Direito, o esquerdo nos Telégrafos,<br>
+        Quero saber da vida alheia,<br>
+        Sereia. </p>
+        <br>
+
+    <p>O nariz guardem nos rosais,<br>
+        A língua no alto do Ipiranga<br>
+        Para cantar a liberdade.<br>
+        Saudade...</p>
+        <br>
+
+    <p>Os olhos lá no Jaraguá<br>
+        Assistirão ao que há de vir,<br>
+        O joelho na Universidade,<br>
+        Saudade... </p>
+        <br>
+        
+    <p>As mãos atirem por aí,<br>
+        Que desvivam como viveram,<br>
+        As tripas atirem pro Diabo,<br>
+        Adeus.</p>
+        <br>
+
+    <p>Mário de Andrade</p><br>
+    
+</body>
+</html>
+
+_________________________________________________________________________________________________________________________
+
+p {
+//Altura da linha
+    line-height: 20px;
+    
+//Espaçamento das letras
+    letter-spacing: 1px;
+    
+//E spaçamento entre as palavras
+    word-spacing: 5px;
+    
+//Recuo do texto
+    text-indent: 10px;
+    
+    color: red;
+    text-align: center;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
