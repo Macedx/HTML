@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css19.css">
+    <title>Aula 1 CSS</title>
+</head>
+<body>
+    
+    <h1>Exemplo em Css</h1>
+    <p>Este é um parágrafo.</p>
+   
+
+</body>
+</html>
+
+____________________________________________________________________________________________________________________________________________________
+
+body{
+    background-color: rgb(154, 243, 255);
+}
+
+h1{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+p{
+    font-family: Verdana;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px rgb(129, 129, 129);
+}
