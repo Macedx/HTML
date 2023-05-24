@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel = "stylesheet" type = "text/css" href="24.03.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>London</title>
+</head>
+<body>
+
+<html>
+<head>
+</head>
+<body>
+<header>
+<h1>Cities</h1>
+</header>
+
+<div class="div1">
+<nav>
+<p><a href="youtube.com">London</a></p>
+<p><a href="youtube.com">Paris</a></p>
+<p><a href="youtube.com">Tokyo</a></p>
+</nav>
+</div>
+
+<div class="div2">
+<main>
+<h3>London</h3>
+<div>   London, the capital of the UK, is a city of history, landmarks, and culture. From the Tower Bridge to Buckingham Palace, its iconic sights enchant visitors. With diverse neighborhoods, global cuisine, and a vibrant arts scene, London offers something for everyone.</div>
+<div>   London's culture is a vibrant tapestry that reflects its rich history and diverse population. The city embraces a wide range of artistic expressions, from theater and music to art and literature.</div>
+
+</main>
+</div>
+
+<footer>
+<h3>Footer</h3>
+</footer>
+</body>
+</html>
+______________________________________________________________________________________________________________________________________________________________________________________________
+CSS
+
+header{
+    background-color:
+    #949494;
+    width: 600px;
+    padding: 40px 2%;
+    color: white;
+    text-align: center; }
+body{
+    background-color: rgb(206, 205, 205);
+    width: 600px;
+    padding: 10px 2%; }
+
+.div1{
+    width: 10cm;
+    background-color: gray;
+}
+.div2{
+    width: 10cm;
+    background-color: black;
+}
+
+footer{
+    width: 600px;
+    padding: 10px 2%;
+    background-color:
+    #888888;
+    color: white;
+    text-align: center; }
+main{
+    text-align: center;
+    width: 100%;
+    background-color:
+    rgb(209, 209, 209); }
