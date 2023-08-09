@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="table.css" />
+    <title>Tabela</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th> Código</th>
+            <th> Produto</th>
+            <th> Preço</th>
+        </tr>
+        <tr class="alterna">
+            <td class="numero"> 001</td>
+            <td> Maçã</td>
+            <td class="numero"> R$ 15,00</td>
+        </tr>
+        <tr class="alterna">
+            <td class="numero"> 002</td>
+            <td> Tomate</td>
+            <td class="numero"> R$ 18,00</td>
+        </tr>
+        <tr class="alterna">
+            <td class="numero"> 003</td>
+            <td> Grão de Bico</td>
+            <td class="numero"> R$ 20,00</td>
+        </tr>
+        <tr class="alterna">
+            <td class="numero"> 004</td>
+            <td> Lentilha</td>
+            <td class="numero"> R$ 8,00</td>
+        </tr>
+    </table>
+</body>
+
+</html>
+
+_____________________________________________________________________________________________________________________________________________________
+ CSS
+table {
+    width: 600px;
+    border-collapse: separate;
+}
+
+th,
+td {
+    border: 1px solid blue;
+    padding: 7px;
+}
+
+th {
+    text-transform: uppercase;
+    border-top: 2px solid #999;
+    border-bottom: 2px solid #111;
+    text-align: left;
+    font-size: 90%;
+    letter-spacing: 0, 1em;
+}
+
+tr.alterna {
+    background-color: gray;
+}
+
+.numero {
+    text-align: right;
+}
+
+tr:hover {
+    background-color: #25ddd7;
+}
